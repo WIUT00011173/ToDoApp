@@ -144,4 +144,44 @@
 * .toDosList .todoDiv .delete {
   background-color: #f78383;
 }
+
+@media (max-width: 500px) {
+  body h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  body .toDoWrapper {
+    width: 350px;
+  }
+  body .toDoWrapper .input {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 200px 80px;
+        grid-template-columns: 200px 80px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  body h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  body .toDoWrapper {
+    width: 300px;
+  }
+  body .toDoWrapper .input {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 150px 80px;
+        grid-template-columns: 150px 80px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    gap: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

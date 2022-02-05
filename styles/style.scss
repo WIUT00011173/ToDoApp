@@ -104,3 +104,46 @@ body {
         }
     }
 }
+
+@media(max-width: 500px) {
+    body {
+        h1{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .toDoWrapper {
+            width: 350px;
+            .input {
+                display: grid;
+                width: 100%;
+                grid-template-columns: 200px 80px;
+                align-content: center;
+                gap: 20px;
+            }
+            
+        }
+    }
+}
+@media(max-width: 360px) {
+    body {
+        h1{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .toDoWrapper {
+            width: 300px;
+            .input {
+                display: grid;
+                width: 100%;
+                grid-template-columns: 150px 80px;
+                align-content: center;
+                gap: 20px;
+        
+                
+            }
+            
+        }
+    }
+}
